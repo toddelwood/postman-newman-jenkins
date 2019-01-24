@@ -1,0 +1,16 @@
+{
+  "name": "postman-jenkins",
+  "version": "1.0.0",
+  "description": "Project for storing postman tests",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-test-production": "newman run tests/json.placeholder.postman_collection.json
+"
+  },
+  "author": "Todd Elwood",
+  "dependencies": {
+    "newman": "^4.3.1"
+  }
+}
